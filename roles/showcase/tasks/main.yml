@@ -1,0 +1,10 @@
+---
+
+#- name: Marker
+#  ansible.builtin.set_fact:
+#    mytime: "{{ ansible_datetime.epoch }}"
+
+- name: Create testfile
+  ansible.builtin.copy:
+    dest: /tmp/my-ansible-test
+    content: "content\n"

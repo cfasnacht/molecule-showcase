@@ -1,0 +1,6 @@
+---
+
+- name: Molecule showcase
+  hosts: localhost
+  roles:
+    - showcase
